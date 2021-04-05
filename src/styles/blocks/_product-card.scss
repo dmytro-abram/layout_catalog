@@ -10,6 +10,11 @@
     width: 160px;
     height: 134px;
     margin: 15px 5px 45px;
+    transition: 400ms;
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 
   &__product-name {
@@ -59,6 +64,7 @@
     border: 1px solid $light-blue-color;
     border-radius: 5px;
     line-height: 38px;
+    transition: color, background-color 400ms;
 
     &:hover {
       background-color: $white-color;
